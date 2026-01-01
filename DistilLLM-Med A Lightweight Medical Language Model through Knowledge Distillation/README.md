@@ -53,9 +53,8 @@ This repository contains the implementation of **DistilLLM-Med**, a comprehensiv
 │   └── llama3_finetuning_Dataset.ipynb             # Dataset collection, cleaning & preprocessing
 │                                                    # ~1.54M medical samples from 18 benchmarks
 ├── Evaluation/
-│   ├── Lm_evaluate.ipynb                           # LM-Eval harness evaluation
+│   ├── Lm_evaluate.ipynb                           # LM-Eval harness evaluation & Memory consumption analysis
 │   ├── rouge-blue-evaluate.ipynb                   # ROUGE & BLEU metrics evaluation
-│   └── memory_analysis/                            # Memory consumption analysis
 └── README.md
 ```
 
