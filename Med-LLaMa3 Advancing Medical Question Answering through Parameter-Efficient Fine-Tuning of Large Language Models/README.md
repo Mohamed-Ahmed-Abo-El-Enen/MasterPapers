@@ -2,6 +2,28 @@
 
 This repository contains code for fine-tuning Llama 3.2 models (1B, 3B, and 8B) on medical datasets using LoRA (Low-Rank Adaptation), 4-bit quantization, and DeepSpeed for efficient multi-GPU training.
 
+## 📄 Paper
+
+[![Paper](https://img.shields.io/badge/Paper-MDPI%20Applied%20Sciences-orange.svg)](https://www.mdpi.com/2076-3417/16/12/6158)
+[![DOI](https://img.shields.io/badge/DOI-10.3390%2Fapp16126158-blue.svg)](https://doi.org/10.3390/app16126158)
+
+> **Read the paper:** https://www.mdpi.com/2076-3417/16/12/6158
+
+This repository accompanies **"Med-LLaMA3: Advancing Medical Question Answering through Parameter-Efficient Fine-Tuning of Large Language Models"**, published in *Applied Sciences* (MDPI), vol. 16, no. 12, art. 6158.
+
+```bibtex
+@article{aboelenen_medllama3,
+  title   = {Med-LLaMA3: Advancing Medical Question Answering through Parameter-Efficient Fine-Tuning of Large Language Models},
+  author  = {Abo El-Enen, Mohamed and Saad, Sally and Nazmy, Taymoor},
+  journal = {Applied Sciences},
+  volume  = {16},
+  number  = {12},
+  pages   = {6158},
+  doi     = {10.3390/app16126158},
+  url     = {https://www.mdpi.com/2076-3417/16/12/6158}
+}
+```
+
 ## Features
 
 - **Multiple Model Sizes**: Training scripts for 1B, 3B, and 8B parameter models

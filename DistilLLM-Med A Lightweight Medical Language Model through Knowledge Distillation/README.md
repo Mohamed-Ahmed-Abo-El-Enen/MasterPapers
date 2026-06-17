@@ -2,9 +2,11 @@
 
 This repository contains the implementation of **DistilLLM-Med**, a comprehensive knowledge distillation framework that transfers medical expertise from multiple large-scale teacher models (MedGemini-4B and Llama3-Med42-8B) into a compact, efficient **LLaMA 3.2-1B** student model. Our approach achieves **89.3% knowledge retention** while reducing model parameters by **75%**, making advanced medical AI accessible for deployment in resource-constrained clinical environments.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2501.xxxxx-b31b1b.svg)](https://arxiv.org/)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20Xplore-00629b.svg)](https://ieeexplore.ieee.org/document/11313220/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+> **📄 Read the paper:** https://ieeexplore.ieee.org/document/11313220/
 
 ## 🌟 Key Features
 
