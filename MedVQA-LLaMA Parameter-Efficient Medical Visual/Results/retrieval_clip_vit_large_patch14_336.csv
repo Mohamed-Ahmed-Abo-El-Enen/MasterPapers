@@ -1,0 +1,9 @@
+model,dir,R@1,R@5,medRank
+base,i2t,0.073,0.178,53
+base,t2i,0.069,0.174,52
+merged,i2t,0.654,0.752,1
+merged,t2i,0.673,0.754,1
+medsiglip,i2t,0.197,0.426,8
+medsiglip,t2i,0.154,0.387,9
+pubmedclip,i2t,0.108,0.261,29
+pubmedclip,t2i,0.102,0.264,29

@@ -1,0 +1,85 @@
+============================================================
+FINAL EVALUATION
+============================================================
+
+⏳ Loading best model...
+✅ Best model loaded successfully!
+   Best epoch: 7
+   Best val loss: 0.2690
+
+🔍 Running final evaluation...
+Validation Epoch 0: 100%|██████████| 500/500 [05:55<00:00,  1.41it/s, loss=0.3731, avg_loss=0.2690, acc=0.8929]
+
+📊 Final Metrics:
+   Loss: 0.2690
+   Accuracy: 0.8929
+
+============================================================
+CLASSIFICATION REPORT (PER CLASS)
+============================================================
+
+Class                     Precision    Recall       F1-Score     Support
+---------------------------------------------------------------------------
+Atelectasis                 0.4300       0.3210       0.3676        919
+Cardiomegaly                0.4634       0.1845       0.2639        206
+Consolidation               0.0000       0.0000       0.0000        381
+Edema                       0.0000       0.0000       0.0000        194
+Effusion                    0.6197       0.3627       0.4576       1078
+Emphysema                   0.8333       0.0743       0.1364        202
+Fibrosis                    0.0000       0.0000       0.0000        124
+Hernia                      0.0000       0.0000       0.0000         18
+Infiltration                0.4791       0.6608       0.5554       1524
+Mass                        0.5758       0.1590       0.2492        478
+Nodule                      0.4286       0.0824       0.1382        510
+Pleural_Thickening          0.0000       0.0000       0.0000        257
+Pneumonia                   0.0000       0.0000       0.0000        119
+Pneumothorax                0.5538       0.3233       0.4082        430
+
+---------------------------------------------------------------------------
+Macro Average               0.3131       0.1548       0.1840
+Micro Average               0.5008       0.3110       0.3837
+Weighted Average            0.4331       0.3110       0.3299
+
+============================================================
+
+============================================================
+PER-CLASS PREDICTION STATISTICS
+============================================================
+
+Disease                   Actual %     Predicted %  Difference
+------------------------------------------------------------
+Atelectasis                22.98%       25.47%       +2.49%
+Cardiomegaly                5.15%        6.17%       +1.02%
+Consolidation               9.53%       10.03%       +0.50%
+Edema                       4.85%        4.95%       +0.10%
+Effusion                   26.95%       26.23%       -0.72%
+Emphysema                   5.05%        5.27%       +0.22%
+Fibrosis                    3.10%        3.27%       +0.17%
+Hernia                      0.45%        0.40%       -0.05%
+Infiltration               38.10%       37.82%       -0.28%
+Mass                       11.95%       10.44%       -1.51%
+Nodule                     12.75%       12.86%       +0.11%
+Pleural_Thickening          6.43%        7.04%       +0.61%
+Pneumonia                   2.98%        2.98%       +0.00%
+Pneumothorax               10.75%       10.97%       +0.22%
+
+============================================================
+GENERATING ROC CURVES
+============================================================
+
+AUC Scores:
+----------------------------------------
+Atelectasis               AUC: 0.7295
+Cardiomegaly              AUC: 0.8428
+Consolidation             AUC: 0.7044
+Edema                     AUC: 0.8494
+Effusion                  AUC: 0.7821
+Emphysema                 AUC: 0.8419
+Fibrosis                  AUC: 0.7735
+Hernia                    AUC: 0.7508
+Infiltration              AUC: 0.6788
+Mass                      AUC: 0.7343
+Nodule                    AUC: 0.7021
+Pleural_Thickening        AUC: 0.7161
+Pneumonia                 AUC: 0.6618
+Pneumothorax              AUC: 0.8255
